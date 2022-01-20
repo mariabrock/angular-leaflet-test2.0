@@ -7,7 +7,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatMenu, MatMenuModule } from '@angular/material/menu';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -20,14 +20,12 @@ const Material = [
   MatToolbarModule,
   MatSidenavModule,
   MatMenuModule,
-  MatMenu,
   MatCardModule,
   MatInputModule,
   MatFormFieldModule
 ]
 
 @NgModule({
-  declarations: [],
   imports: [
     CommonModule,
     Material
