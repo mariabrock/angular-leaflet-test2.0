@@ -1,1 +1,9 @@
+@import "../node_modules/material-icons/iconfont/material-icons.css";
+// 3rd party css
+@import "~leaflet/dist/leaflet.css";
+@import "./app/scss/themes";
+@import "./app/scss/variables";
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
