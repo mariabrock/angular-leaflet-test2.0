@@ -4,7 +4,6 @@
 @import "../scss/themes";
 @import "../scss/variables";
 
-
 .map-container {
   position: absolute;
   top: 0;
@@ -15,28 +14,11 @@
 }
 
 .map-frame {
-  background-color: $success-color;
+  background-color: $accent-color;
   border: 2px solid black;
   height: 75%;
 }
 
 #map {
   height: 100%;
-}
-
-// button {background-color: #ff0000 !important; }
-
-mat-card-actions {
-  justify-content: space-between;
-  
-  & .mat-raised-button {
-    
-    & .right-btn {
-      background-color: $accent-color;
-    }
-    
-    & .left-btn {
-      background-color: $primary-color;
-    }
-  }
 }
